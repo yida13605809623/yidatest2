@@ -10,4 +10,18 @@
 
 @implementation ClassTest1
 
++ (instancetype) sharedManage {
+    static ClassTest1 *shareManage = nil;
+    static dispatch_once_t once;
+    dispatch_once(&once,^{
+        shareManage = [[ClassTest1 alloc] init];
+    });
+    return shareManage;
+}
+
+
+- (void)getClassTest1Info {
+    NSLog(@"这是里是class test1");
+}
+
 @end

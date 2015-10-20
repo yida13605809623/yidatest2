@@ -1,5 +1,5 @@
 //
-//  ClassTest1.h
+//  SubClassesTest1.h
 //  yidatest1
 //
 //  Created by 益达 on 15/10/20.
@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ClassTest1 : NSObject
+@interface SubClassesTest1 : NSObject
 
 + (instancetype) sharedManage;
-- (void) getClassTest1Info;
+- (void) printSublClassesTest1;
 
 @end

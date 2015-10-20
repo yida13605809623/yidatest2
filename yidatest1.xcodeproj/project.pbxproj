@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		723FDB251BD5DBA1008817B2 /* ClassTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 723FDB241BD5DBA1008817B2 /* ClassTest1.m */; };
 		723FDB281BD5DBB1008817B2 /* ClassTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 723FDB271BD5DBB1008817B2 /* ClassTest2.m */; };
+		723FDB631BD62A46008817B2 /* SubClassesTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 723FDB621BD62A46008817B2 /* SubClassesTest1.m */; };
 		72EC44921BD49DCF00AD88DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC44911BD49DCF00AD88DD /* main.m */; };
 		72EC44951BD49DCF00AD88DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC44941BD49DCF00AD88DD /* AppDelegate.m */; };
 		72EC44981BD49DCF00AD88DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC44971BD49DCF00AD88DD /* ViewController.m */; };
@@ -40,6 +41,8 @@
 		723FDB241BD5DBA1008817B2 /* ClassTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTest1.m; sourceTree = "<group>"; };
 		723FDB261BD5DBB1008817B2 /* ClassTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTest2.h; sourceTree = "<group>"; };
 		723FDB271BD5DBB1008817B2 /* ClassTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTest2.m; sourceTree = "<group>"; };
+		723FDB611BD62A46008817B2 /* SubClassesTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassesTest1.h; sourceTree = "<group>"; };
+		723FDB621BD62A46008817B2 /* SubClassesTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassesTest1.m; sourceTree = "<group>"; };
 		72EC448D1BD49DCF00AD88DD /* yidatest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yidatest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EC44911BD49DCF00AD88DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72EC44931BD49DCF00AD88DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,12 +88,22 @@
 		723FDB221BD5DB8E008817B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				723FDB601BD62A30008817B2 /* SubClasses */,
 				723FDB231BD5DBA1008817B2 /* ClassTest1.h */,
 				723FDB241BD5DBA1008817B2 /* ClassTest1.m */,
 				723FDB261BD5DBB1008817B2 /* ClassTest2.h */,
 				723FDB271BD5DBB1008817B2 /* ClassTest2.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		723FDB601BD62A30008817B2 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				723FDB611BD62A46008817B2 /* SubClassesTest1.h */,
+				723FDB621BD62A46008817B2 /* SubClassesTest1.m */,
+			);
+			path = SubClasses;
 			sourceTree = "<group>";
 		};
 		72EC44841BD49DCF00AD88DD = {
@@ -289,6 +302,7 @@
 				723FDB281BD5DBB1008817B2 /* ClassTest2.m in Sources */,
 				723FDB251BD5DBA1008817B2 /* ClassTest1.m in Sources */,
 				72EC44921BD49DCF00AD88DD /* main.m in Sources */,
+				723FDB631BD62A46008817B2 /* SubClassesTest1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
